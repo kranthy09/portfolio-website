@@ -5,87 +5,121 @@
             My Portfolio
         </title>
         <link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="
+        portfolio.css">
         <style>
             body {
-                background-color: #c96567;
+                background-color: #2A363B;
             }
             .name_details {
-                margin-left: 80%;
                 padding: 15px;
+                background-color: #99B898;
             }
-            .person_name {
-                font-family: 'Abel';
-                color: white;
-                margin: 5px;
-                font-size: 25px;
+            #name {
+                margin-left: 80%;
+                color: #2A363B;
+                letter-spacing: 1px;
             }
-            .email {
-                font-family: 'Abel';
-                color: white;
-                font-size: 20px;
-                margin: 5px;
+            #email {
+                margin-left: 80%;
+                color: #2A363B;
+                letter-spacing: 1px;
             }
-            .contact {
-                font-family: 'Abel';
+            #contact {
+                margin-left: 80%;
+                color: #2A363B;
+                letter-spacing: 2px;
+            }
+            .aboutme {
+                background-color: #FECEA8;
+                margin-top: 10px;
+            }
+            #aboutme_head {
+                background-color: #2A363B;
                 color: white;
-                margin: 0;
-                font-size: 18px;
-                margin: 5px;
-                margin-bottom: 30px;
+                display: inline-block;
+                padding: 12px;
+                margin-left: 20px;
+
+
             }
             #para {
                 font-size: 20px;
-                margin: 40px;
+                margin-left: 40px;
+                margin-top: 0px;
+                margin-right: 40px;
+                padding: 55px;
+                padding-top: 20px;
+                line-height: 2;
+                letter-spacing: 2px;
+
                 font-family: Verdana, sans-serif;
             }
-            #aboutme {
-                background-color: black;
-                color: white;
-                display: inline;
-                padding: 12px;
-                margin: 10px;
+            .skills {
+                background-color: #FF847C;
+                display: inline-block;
+                margin-left: 5%;
+                margin-top: 0;
             }
-            #skills {
+            #skills_head {
+                background-color: #2A363B;
                 color: white;
-                background-color: #314455;
-                display: inline;
-                padding: 10px;
-                margin: 10px;
+                display: inline-block;
+                padding: 12px;
+                margin-left: 20px;
             }
             ul {
+
                 margin: 40px;
+                margin-top: 10px;
                 font-size: 18px;
                 font-family: Verdana, sans-serif;
             }
-            #hobbies {
+            .hobbies {
+                background-color: #FF847C;
+                display: inline-block;
+                margin-left: 38%;
+            }
+            #hobbies_head {
+                background-color: #2A363B;
                 color: white;
-                background-color: #314455;
-                display: inline;
-                padding: 10px;
-                margin: 10px;   
+                display: inline-block;
+                padding: 12px;
+                margin: 20px;
             }
-            ol {
-                margin: 40px;
-                font-size: 18px;
-                font-family: Verdana, sans-serif;
+            #hobbies_list {
+                margin-bottom: 20px;
+                padding: 20px;
             }
+            li {
+                letter-spacing: 2px;
+                line-height: 2;
+            }
+            .hobby {
+                margin-top: 5px;
+                margin-right: 80px;
+                margin-left: 40px;
+            }
+
         </style>
     </head>
     <body>
         <div class="name_details">
-            <h2 class="person_name">G Kranthi Kumar</h2>
-            <h3 class="email">g.kranthi2507@gmail.com</h3>
-            <h3 class="contact">9102763637</h3>
+            <h2 id="name">G Kranthi Kumar</h2>
+            <h3 id="email">g.kranthi2507@gmail.com</h3>
+            <h3 id="contact">9102763637</h3>
         </div>
-        <div>
-            <h2 id="aboutme">About me</h2>
+        <div class="aboutme">
+            <h2 id="aboutme_head">About me</h2>
             <p id="para">I'm a tech enthusiast.To work in a challenging environment
             demanding all my skills and adapt myslef in different fields 
             for the development of organization and to enhance my working 
             skills, experience and time performance.
             Team player with strong interpersonal skills and 
             ability to collaborate with others.</p>
-            <h2 id="skills">Skills</h2>
+        </div>
+        <div class="skills">
+            <h2 id="skills_head">Skills</h2>
             <ul>
                 <li>Problem Solving</li>
                 <li>C programming</li>
@@ -93,12 +127,14 @@
                 <li>Basics of Computer Networks</li>
                 <li>HTML</li>
             </ul>
-            <h2 id="hobbies">Hobbies</h2>
-            <ol>
-                <li>Playing Football</li>
-                <li>Solving Puzzles</li>
-                <li>Listening Songs</li>
-                <li>Playing cricket</li>
+        </div>
+        <div class="hobbies">
+            <h2 id="hobbies_head">Hobbies</h2>
+            <ul id="hobbies_list">
+                <li class="hobby">Playing Football</li>
+                <li class="hobby">Solving Puzzles</li>
+                <li class="hobby">Listening Songs</li>
+                <li class="hobby">Playing cricket</li>
             </ol>
         </div>
     </body>
