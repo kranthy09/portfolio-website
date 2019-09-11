@@ -1,0 +1,68 @@
+.div {
+    width: 100%;
+    border: 4px dashed green;
+}
+
+#para {
+    background-color: blue;
+    font-size: 36px;
+    color: white;
+    width: 400px;
+    height: 90px;
+    background-color: #0a885a
+}
+
+#span {
+    background-color: blue;
+    font-size: 36px;
+    color: white;
+    width: 400px;
+    height: 9px;
+    background-color: #0a885a;
+    color: yellow;
+}
+
+#give {
+    background-color: lightblue;
+    color: white;
+    height: 60px;
+    font-size: 30px;
+}
+
+.graduation {
+    color: blue;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: yellow;
+    border: 2px solid black;
+    height: 60px;
+}
+
+.designation {
+    color: green;
+    font-size: 18px;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+.divinp {
+    color: white;
+    background-color: black;
+}
+
+.graduate {
+    color: black;
+}
+
+#grad {
+    background-color: red;
+}
+
+img {
+    height: 40%;
+    width: 40%;
+}
+
+.col-test {
+    height: 75px;
+}
