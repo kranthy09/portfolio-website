@@ -1,68 +1,32 @@
-.div {
-    width: 100%;
-    border: 4px dashed green;
+body {
+    background-color: #b6c1c9;
 }
 
-#para {
-    background-color: blue;
-    font-size: 36px;
-    color: white;
-    width: 400px;
-    height: 90px;
-    background-color: #0a885a
+.col-height {
+    height: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px solid white;
+    text-align: center;
+    padding: 20px;
 }
 
-#span {
-    background-color: blue;
-    font-size: 36px;
-    color: white;
-    width: 400px;
-    height: 9px;
-    background-color: #0a885a;
-    color: yellow;
+.col-blue {
+    background-color: #769776;
 }
 
-#give {
-    background-color: lightblue;
-    color: white;
-    height: 60px;
-    font-size: 30px;
+.col-skyblue {
+    background-color: skyblue;
 }
 
-.graduation {
-    color: blue;
-    font-size: 14px;
-    font-weight: bold;
-    background-color: yellow;
-    border: 2px solid black;
-    height: 60px;
+.col-green {
+    background-color: green;
 }
 
-.designation {
-    color: green;
-    font-size: 18px;
-    font-style: italic;
-    background-color: lightgray;
+.col-voilet {
+    background-color: #989766;
 }
 
-.divinp {
-    color: white;
-    background-color: black;
-}
-
-.graduate {
-    color: black;
-}
-
-#grad {
-    background-color: red;
-}
-
-img {
-    height: 40%;
-    width: 40%;
-}
-
-.col-test {
-    height: 75px;
+.col-lightgreen {
+    background-color: lightgreen;
 }
