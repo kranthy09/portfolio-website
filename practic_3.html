@@ -38,15 +38,15 @@
             }
 
             .heading {
-                font-size: 25px;
+                font-size: 48px;
                 background-color: skyblue;
             }
 
             .col-4 {
                 overflow: visible;
                 border: 2px solid black;
-                border-radius: 5px;
-                background-color: purple;
+                border-radius: 15px;
+                background-color: brown;
             }
 
             .container {
@@ -56,6 +56,17 @@
             p {
                 background-color: lightgreen;
                 border-radius: 10px;
+                font-size: 30px;
+            }
+
+            .overflow-case {
+                overflow: auto;
+
+            }
+
+            .last-ele {
+                overflow: auto;
+                height: 150px;
             }
         </style>
     </head>
@@ -67,18 +78,25 @@
             <ul class="row row-padding">
                 <li class="col-4">
                     <img class="skills-image" src="static/Skills/C-Language-Icon/css.png"></img>
-                    <p class="heading">C</p>
-                    <p>C is a Programming language</p>
+                    <div class="overflow-case">
+                        <p class="heading">C</p>
+                        <p>C is a Programming language</p>
+                    </div>
                 </li>
                 <li class="col-4">
                     <img class="skills-image" src="static/Skills/CSS-Icon/css(1).png"></img>
-                    <p class="heading">HTML</p>
-                    <p>Hyper Text Markup Language<br/> (HTML) is a markup<br/>language for creating a <br/>webpage.</p>
+                    <div class="overflow-case">
+                        <p class="heading">HTML</p>
+                        <p>Hyper Text Markup Language<br/> (HTML) is a markup<br/>language for creating a <br/>webpage.</p>
+                    </div>
+
                 </li>
                 <li class="col-4">
                     <img class="skills-image" src="static/Skills/HTML-Icon/html(1).png"></img>
-                    <p class="heading">CSS</p>
-                    <p class="paras">CSS stands for Cascading<br/> Styles Sheets. Its purpose is<br/> to style HTML document.</p>
+                    <div class="overflow-case last-ele">
+                        <p class="heading">CSS</p>
+                        <p class="paras">CSS stands for Cascading<br/> Styles Sheets. Its purpose is<br/> to style HTML document.</p>
+                    </div>
                 </li>
             </ul>
         </div>
