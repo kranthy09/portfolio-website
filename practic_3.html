@@ -17,20 +17,13 @@
                 background-color: #4169E1;
             }*/
 
-            body {
-                background-color: yellow;
-            }
-
-            * {
-                border: 2px solid purple;
-                padding: 10px;
-            }
-
-
-
             img {
-                border: 3px solid red;
+                border: 1px solid red;
                 margin-bottom: 10px;
+                margin-top: -35px;
+                border-radius: 50px;
+                padding: 5px;
+                background-color: pink;
             }
 
             ul {
@@ -41,21 +34,7 @@
             }
 
             li {
-                overflow: auto;
                 text-align: center;
-            }
-
-            /*h5 {
-                background-color: skyblue;
-            }*/
-
-            p {
-                background-color: orange;
-            }
-
-            .col-4 {
-                background-color: lightgreen;
-                padding: 50px;
             }
 
             .heading {
@@ -63,53 +42,43 @@
                 background-color: skyblue;
             }
 
-            .row-padding {
-                padding-left: 10px;
-                padding-right: 10px;
+            .col-4 {
+                overflow: visible;
+                border: 2px solid black;
+                border-radius: 5px;
+                background-color: purple;
             }
 
-            .container-padding {
-                padding-left: 20px;
-                padding-right: 20px;
+            .container {
+                padding-top: 80px;
             }
 
-            /*
-            ->if we apply three different properties to a html element with
-            a class , id and tag selector.,As the specifity order is in this
-            order starting from style tag in html, class selector, id selector,
-            tag selector and universal selector.
-            ->in li tags cannot use h1 to h6 tags.but why??..
-            
-            */
+            p {
+                background-color: lightgreen;
+                border-radius: 10px;
+            }
         </style>
     </head>
 
     <body>
         <div class="container container-padding">
-            <!--
-            for giving meaning to a content we are using list here, as these
-            skills  are belongs to same set of section and if we want to add our
-            new skill instead of writing whole new code with css properties, we 
-            can just add with a  li tag which belongs to that particular ul section
-            -->
+            <!--for giving meaning to a content we are using list here,
+            as these skills  are belongs to same set of section -->
             <ul class="row row-padding">
                 <li class="col-4">
                     <img class="skills-image" src="static/Skills/C-Language-Icon/css.png"></img>
                     <p class="heading">C</p>
                     <p>C is a Programming language</p>
-                    <p>what ever you want</p>
                 </li>
                 <li class="col-4">
                     <img class="skills-image" src="static/Skills/CSS-Icon/css(1).png"></img>
                     <p class="heading">HTML</p>
                     <p>Hyper Text Markup Language<br/> (HTML) is a markup<br/>language for creating a <br/>webpage.</p>
-                    <p>what ever you need</p>
                 </li>
                 <li class="col-4">
                     <img class="skills-image" src="static/Skills/HTML-Icon/html(1).png"></img>
                     <p class="heading">CSS</p>
                     <p class="paras">CSS stands for Cascading<br/> Styles Sheets. Its purpose is<br/> to style HTML document.</p>
-                    <p>hello friends, chai pilo!</p>
                 </li>
             </ul>
         </div>
