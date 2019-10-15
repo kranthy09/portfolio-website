@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <title>BreakPoints Practice using d-none</title>
+    <!--  Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" type="text/css" />
+    <script src="bootstrap/jquery.min.js"></script>
+    <script src="bootstrap/popper.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+
+    <style>
+        .col-height {
+            height: 100px;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .orange {
+            background-color: orange;
+        }
+
+        .darkblue {
+            background-color: darkblue;
+        }
+    </style>
+
+    <body>
+        <div class="contianer">
+            <div class="row d-none">
+                <div class="col-6 col-height orange"></div>
+                <div class="col-6 col-height green"></div>
+            </div>
+            <div class="row d-none">
+                <div class="col-6 col-height darkblue"></div>
+                <div class="col-6 col-height blue"></div>
+            </div>
+            <div class="row d-none d-md-flex d-xl-none">
+                <div class="col-4 col-height blue"></div>
+                <div class="col-4 col-height green"></div>
+                <div class="col-4 col-height orange"></div>
+            </div>
+            <div class="row d-none d-md-flex d-xl-none">
+                <div class="col-4 col-height darkblue"></div>
+            </div>
+            <div class="row d-none d-xl-flexz">
+                <div class="col-3 col-height darkblue"></div>
+                <div class="col-3 col-height blue"></div>
+                <div class="col-3 col-height green"></div>
+                <div class="col-3 col-height orange"></div>
+            </div>
+        </div>
+    </body>
+
+</html>
