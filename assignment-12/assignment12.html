@@ -10,149 +10,303 @@
     <script src="../bootstrap/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assignment12.css" type="text/css" />
   </head>
+  <style>
+    .logo-image {
+      float: left;
+      height: 35px;
+      object-fit: contain;
+      padding-right: 10px;
+    }
+
+    #logo-gmail-text {
+      font-size: 26px;
+      color: #DCDCDC;
+    }
+
+    .get-email-btn {
+      float: right;
+    }
+
+    .logo-gmail-text {
+      padding-left: 5px;
+      font-size: 18px;
+    }
+
+    .get-email-btn {
+      padding: 9px;
+      padding-left: 25px;
+      padding-right: 25px;
+      font-size: 14px;
+    }
+
+    .first-head-row {
+      border-bottom: 1px solid black;
+    }
+
+    .get-email-in-content-btn {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 9px;
+      padding-left: 25px;
+      padding-right: 25px;
+      font-size: 14px;
+    }
+
+    .link-col {
+      border-bottom: 1px solid black;
+    }
+
+    .link-1 {
+      float: left;
+    }
+
+    .link-2 {
+      float: right;
+    }
+
+    .link-col-large-screens {
+      font-size: 16px;
+    }
+
+    .in-2ndrow {
+      color: #DCDCDC;
+    }
+
+    .content-heads-property {
+      font-size: 34px;
+      text-align: center;
+    }
+
+    .content-caption-property {
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .content-images-property {
+      height: 250px;
+      object-fit: contain;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+    }
+
+    .experience-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+      height: 400px;
+      object-fit: contain;
+      margin-bottom: 20px;
+    }
+
+
+    .store-images {
+      width: 150px;
+      object-fit: contain;
+    }
+
+    .playstore-image {
+      float: right;
+    }
+
+    .mac-store-image {
+      float: left;
+    }
+
+    .getStarted-logo-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100px;
+      width: 100px;
+      object-fit: contain;
+    }
+
+    .getStarted-button {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .footer-row {
+      margin-top: 30px;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .ft-google-text {
+      float: left;
+      font-size: 20px;
+    }
+
+    .ft-help {}
+  </style>
 
   <body>
-    <div class="container">
-      <div class="row first-head-row">
-        <div class="col-6">
-          <p class="logo-gmail-text"><img src="assets/logo-gmail.png" class="logo-image">Gmail</img>
-          </p>
-        </div>
-        <div class="col-6">
-          <button type="button" class="btn btn-primary get-email-btn">Get Gmail</button>
-        </div>
+    <div class="row first-head-row d-md-none">
+      <div class="col-6">
+        <p><img src="assets/logo-gmail.png" class="logo-image"><span id="logo-gmail-text">Gmail</span></img>
+        </p>
       </div>
-      <div class="row second-head-row">
-        <div class="col-6">
-          <p class="link-1 in-2ndrow">For Work</p>
-        </div>
-        <div class="col-6">
-          <p class="link-2 in-2ndrow">Sign In</p>
-        </div>
+      <div class="col-6">
+        <button type="button" class="btn btn-primary get-email-btn">Get Gmail</button>
       </div>
-      <div class="row content-row-one">
-        <div class="col-12">
-          <p class="intro-head">Get more done with Gmail</p>
-        </div>
-        <div class="col-12">
-          <p class="intro-head-caption">
-            Now more secure, smarter and easier, to use- helping you save time and do more with your inbox
-          </p>
-        </div>
-        <div class="col-12 row-content-col-class">
-          <img class="landing-page-image" src="assets/landing-page-image-mobile.png" alt="landing-page-image-not-found"></img>
-        </div>
-        <div class="col-12 row-content-col-class">
-          <button type="button" class="btn btn-primary get-email-in-content-btn">Get Gmail</button>
-        </div>
+      <div class="col-6 link-col">
+        <p class="link-1 in-2ndrow">For Work</p>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <p class="appStore-content-head">Experience Gmail on any device</p>
-        </div>
-        <div class="col-12">
-          <p class="appStore-content-caption">The ease and simplicity of Gmail, wherever you are</p>
-        </div>
-        <div class="col-6" style="padding-right:3px;">
-          <img class="playstore-image" src="assets/google-playstore.png"></img>
-        </div>
-        <div class="col-6" style="padding-left:3px;">
-          <img class="mac-store-image" src="assets/app-store.png"></img>
-        </div>
-        <div class="col-12">
-          <img class="experience-image" src="assets/experience-image-mobile-desktop.png"></img>
-        </div>
+      <div class="col-6 link-col">
+        <p class="link-2 in-2ndrow">Sign In</p>
       </div>
+    </div>
 
-      <div class="row">
-        <div class="col-12">
-          <p class="stay-organised-content-head">Stay organised instantly</p>
-        </div>
-        <div class="col-12">
-          <p class="stay-organised-content-caption">See what's new at a glance and decide what you want to read and respond to.</p>
-        </div>
-        <div class="col-12">
-          <img class="stay-organised-image" src="assets/stay-organised-instantly-mobile.png"></img>
-        </div>
-      </div>
+    <!-- ******** Large screens ******* -->
 
-      <div class="row">
-        <div class="col-12">
-          <p class="stay-organised-content-head">Never drop the ball</p>
-        </div>
-        <div class="col-12">
-          <p class="stay-organised-content-caption">Get nudges that remind you to follow up and respond to messages, so that nothing slips through the cracks.</p>
-        </div>
-        <div class="col-12">
-          <img class="stay-organised-image" src="assets/never-drop-the-ball-mobile.png"></img>
-        </div>
+    <div class="row d-none d-md-flex">
+      <div class="col-6">
+        <p><img src="assets/logo-gmail.png" class="logo-image"><span id="logo-gmail-text">Gmail</span></img>
+        </p>
       </div>
-
-      <div class="row">
-        <div class="col-12">
-          <p class="stay-organised-content-head">Take action right from inbox</p>
-        </div>
-        <div class="col-12">
-          <p class="stay-organised-content-caption">View attachments, RSVP to events, snooze messages and more without opening any emails.</p>
-        </div>
-        <div class="col-12">
-          <img class="stay-organised-image" src="assets/take-action-mobile.png"></img>
-        </div>
+      <div class="col-2 link-col-large-screens">
+        <p class="link-1 in-2ndrow">For Work</p>
       </div>
-
-      <div class="row">
-        <div class="col-12">
-          <p class="stay-organised-content-head">Aviod suspicious emails</p>
-        </div>
-        <div class="col-12">
-          <p class="stay-organised-content-caption">Gmail blocks 99.9% of dangerous emails before they reach you.If we think something seems phish-y, you'll get a warning.</p>
-        </div>
-        <div class="col-12">
-          <img class="stay-organised-image" src="assets/avoid-suspicious-emails-mobile.png"></img>
-        </div>
+      <div class="col-1 link-col-large-screens">
+        <p class="link-2 in-2ndrow">Sign In</p>
       </div>
-
-      <div class="row">
-        <div class="col-12">
-          <img class="getStarted-logo-image" src="assets/logo-gmail.png"></img>
-        </div>
-        <div class="col-12">
-          <p class="getStarted-content-head">Get started with Gmail</p>
-        </div>
-        <div class="col-12">
-          <button type="button" class="btn btn-primary getStarted-button">Get Gmail</button>
-        </div>
+      <div class="col-3">
+        <button type="button" class="btn btn-primary get-email-btn">Create an account</button>
       </div>
-
-      <div class="row">
-        <div class="col-12">
-          <p class="footer ft-google-text">Google</p>
-        </div>
-        <div class="col-2">
-          <p class="footer ft-privacy">Privacy</p>
-        </div>
-        <div class="col-2">
-          <p class="footer ft-terms">Terms</p>
-        </div>
-        <div class="col-4">
-          <p class="footer ft-aboutGoogle">About Google</p>
-        </div>
-        <div class="col-4">
-          <p class="footer ft-Googleproducts">Google Products</p>
-        </div>
-        <div class="col-3">
-          <p class="footer ft-policy">Our policy</p>
-        </div>
+    </div>
+    <!-- row-1-->
+    <div class="row content-row-one">
+      <div class="col-12">
+        <p class="content-heads-property">Get more done with Gmail</p>
       </div>
-
-      <div class="row">
-        <div class="col-2">
-          <p class="footer ft-help">Help</p>
-        </div>
-        <div class="col-10">
-          Dropdown
-        </div>
+      <div class="col-12">
+        <p class="content-caption-property">
+          Now more secure, smarter and easier, to use- helping you save time and do more with your inbox
+        </p>
       </div>
+      <div class="col-12 row-content-col-class">
+        <img class="landing-page-image content-images-property" src="assets/landing-page-image-mobile.png" alt="landing-page-image-not-found"></img>
+      </div>
+      <div class="col-12 row-content-col-class">
+        <button type="button" class="btn btn-primary get-email-in-content-btn">Get Gmail</button>
+      </div>
+    </div>
+    <!-- row-->
+    <div class="row">
+      <div class="col-12">
+        <p class="content-heads-property">Experience Gmail on any device</p>
+      </div>
+      <div class="col-12">
+        <p class="content-caption-property">The ease and simplicity of Gmail, wherever you are</p>
+      </div>
+      <div class="col-6" style="padding-right:3px;">
+        <img class="playstore-image store-images" src="assets/google-playstore.png"></img>
+      </div>
+      <div class="col-6" style="padding-left:3px;">
+        <img class="mac-store-image store-images" src="assets/app-store.png"></img>
+      </div>
+      <div class="col-12">
+        <img class="experience-image" src="assets/experience-image-mobile-desktop.png"></img>
+      </div>
+    </div>
+    <!-- row-1-->
+    <div class="row">
+      <div class="col-12">
+        <p class="content-heads-property">Stay organised instantly</p>
+      </div>
+      <div class="col-12">
+        <p class="content-caption-property">See what's new at a glance and decide what you want to read and respond to.</p>
+      </div>
+      <div class="col-12">
+        <img class="content-images-property" src="assets/stay-organised-instantly-mobile.png"></img>
+      </div>
+    </div>
+    <!-- row-1-->
+    <div class="row">
+      <div class="col-12">
+        <p class="content-heads-property">Never drop the ball</p>
+      </div>
+      <div class="col-12">
+        <p class="content-caption-property">Get nudges that remind you to follow up and respond to messages, so that nothing slips through the cracks.</p>
+      </div>
+      <div class="col-12">
+        <img class="content-images-property" src="assets/never-drop-the-ball-mobile.png"></img>
+      </div>
+    </div>
+    <!-- row-1-->
+    <div class="row">
+      <div class="col-12">
+        <p class="content-heads-property">Take action right from inbox</p>
+      </div>
+      <div class="col-12">
+        <p class="content-caption-property">View attachments, RSVP to events, snooze messages and more without opening any emails.</p>
+      </div>
+      <div class="col-12">
+        <img class="content-images-property" src="assets/take-action-mobile.png"></img>
+      </div>
+    </div>
+    <!-- row-1-->
+    <div class="row">
+      <div class="col-12">
+        <p class="content-heads-property">Aviod suspicious emails</p>
+      </div>
+      <div class="col-12">
+        <p class="content-caption-property">Gmail blocks 99.9% of dangerous emails before they reach you.If we think something seems phish-y, you'll get a warning.</p>
+      </div>
+      <div class="col-12">
+        <img class="content-images-property" src="assets/avoid-suspicious-emails-mobile.png"></img>
+      </div>
+    </div>
+    <!-- row-1-->
+    <div class="row">
+      <div class="col-12">
+        <img class="getStarted-logo-image" src="assets/logo-gmail.png"></img>
+      </div>
+      <div class="col-12">
+        <p class="content-heads-property">Get started with Gmail</p>
+      </div>
+      <div class="col-12">
+        <button type="button" class="btn btn-primary getStarted-button">Get Gmail</button>
+      </div>
+    </div>
+    <!-- row-1-->
+    <div class="row footer-row">
+      <div class="col-12">
+        <p class="footer ft-google-text">Google</p>
+      </div>
+      <div class="col-2">
+        <p class="footer ft-privacy">Privacy</p>
+      </div>
+      <div class="col-2">
+        <p class="footer ft-terms">Terms</p>
+      </div>
+      <div class="col-4">
+        <p class="footer ft-aboutGoogle">About Google</p>
+      </div>
+      <div class="col-4">
+        <p class="footer ft-Googleproducts">Google Products</p>
+      </div>
+      <div class="col-3">
+        <p class="footer ft-policy">Our policy</p>
+      </div>
+    </div>
+    <!-- row-1-->
+    <div class="row">
+      <div class="col-2">
+        <p class="footer ft-help">Help</p>
+      </div>
+      <div class="col-10">
+        <p class="footer ft-dropdown">English (India)</p>
+      </div>
+    </div>
     </div>
   </body>
 
