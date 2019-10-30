@@ -45,21 +45,58 @@
       text-align: center;
     }
 
+    .explore {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .main-content-col {
+      background-color: lightgrey;
+    }
+
+    .main-head {
+      font-size: 36px;
+      margin-bottom: 5px;
+      margin-top: 15px;
+    }
+
+    .main-head-caption {
+      margin-bottom: 40px;
+    }
+
     .content-row {
-      border: 0.5px solid black;
+      margin-top: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
     }
 
     .content-image {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 70px;
+      width: 90px;
       object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .content-head {
+      margin-bottom: 5px;
+      font-size: 20px;
+    }
+
+    .content-head-caption {
+      font-size: 14px;
+    }
+
+    .hash {
+      padding: px;
+      background-color: lightgrey;
     }
   </style>
 
   <body>
-    <div class="container">
+    <div class="container-fluid">
+      <!--
       <div class="row navigation-row">
         <div class="col-8">
           <img class="github-logo" src="assets/github-logo.svg"></img>
@@ -75,7 +112,7 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <p class="align-center">Explore</p>
+          <p class="align-center explore">Explore</p>
         </div>
         <div class="col-1"></div>
         <div class="col-2">
@@ -91,26 +128,71 @@
           <p class="align-center">Events</p>
         </div>
         <div class="col-1"></div>
-        <div class="col-12">
+        <div class="col-12 main-content-col">
           <p class="main-head align-center">Topics</p>
         </div>
-        <div class="col-12">
+        <div class="col-12 main-content-col">
           <p class="main-head-caption align-center">
             Browse popular topics on GitHub.
           </p>
         </div>
       </div>
-      <div class="row content-row">
-        <div class="col-12">
+
+      <div class="card content-row">
+        <div class="card-body">
           <img class="content-image" src="assets/opengl.png"></img>
-        </div>
-        <div class="col-12">
-          <p class="align-center ">OpenGL</p>
-        </div>
-        <div class="col-12">
-          <p class="align-center">
+
+          <p class="align-center content-head">OpenGL</p>
+
+          <p class="align-center content-head-caption">
             OpenGL is software interface that allows a programmer to communicate with grraphic hardware
           </p>
+        </div>
+      </div>
+
+
+      <div class="card content-row">
+        <div class="card-body">
+          <img class="content-image" src="assets/flask.png"></img>
+
+          <p class="align-center content-head">Flask</p>
+
+          <p class="align-center content-head-caption">
+            Flask is web frame work for python based o the werczueg toolkit.
+          </p>
+        </div>
+      </div>
+
+      <div class="card content-row">
+        <div class="card-body">
+          <img class="content-image" src="assets/gradle.png"></img>
+
+          <p class="align-center content-head">OpenGL</p>
+
+          <p class="align-center content-head-caption">
+            Gradle is a open-source build tool that helps team build,autommate and deliver better software and design.
+          </p>
+        </div>
+      </div>
+      -->
+
+      <div class="featured-topics-content">
+        <p class="featured-topics-head">
+          ALl Featured Topics
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-2 hash">#</div>
+        <div class="col-10">
+          <div class="head">
+            <h3>3D</h3>
+          </div>
+          <p class="content-info">
+            3D modeling is the process of virtually developing the surface and structure of a 3D object.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm"><img src="assets/star.svg"></img>Star</button>
+          </div>
         </div>
       </div>
     </div>
