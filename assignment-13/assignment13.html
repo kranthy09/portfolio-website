@@ -88,13 +88,62 @@
       font-size: 14px;
     }
 
-    .hash {
-      padding: px;
+    .each-featured-content-row {
+      padding-left: 10px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid black;
+      padding-top: 20px;
+    }
+
+    .featured-content-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 70px;
+      object-fit: contain;
+    }
+
+    .featured-content-head {
+      margin-bottom: 5px;
+    }
+
+    .hash-col {
+      height: 70px;
       background-color: lightgrey;
+    }
+
+    .hash {
+
+      padding: 20px;
+    }
+
+    .content-info {
+      font-size: 14px;
+      margin-bottom: 0px;
+    }
+
+    .star-btn {
+      background-color: white;
+      color: black;
+
+    }
+
+    .star-text {
+      margin-left: 5px;
+    }
+
+    .loadmore-card {
+      height: 60px;
+    }
+
+    .loadmore {
+      color: darkblue;
+
     }
   </style>
 
   <body>
+
     <div class="container-fluid">
       <!--
       <div class="row navigation-row">
@@ -174,15 +223,17 @@
           </p>
         </div>
       </div>
-      -->
 
       <div class="featured-topics-content">
         <p class="featured-topics-head">
           ALl Featured Topics
         </p>
       </div>
-      <div class="row">
-        <div class="col-2 hash">#</div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2 hash-col">
+          <p class="hash">#</p>
+        </div>
         <div class="col-10">
           <div class="head">
             <h3>3D</h3>
@@ -191,9 +242,267 @@
             3D modeling is the process of virtually developing the surface and structure of a 3D object.
           </p>
           <div class="rating">
-            <button type="button" class="btn btn-secondary btn-sm"><img src="assets/star.svg"></img>Star</button>
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="assets/star.svg"></img><span class="star-text">Star</span></button>
           </div>
         </div>
+      </div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2 hash-col">
+          <p class="hash">#</p>
+        </div>
+        <div class="col-10">
+          <div class="featured-content-head">
+            <h3>Ajax</h3>
+          </div>
+          <p class="content-info">
+            Ajax is a technique for creating interactive web applications.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="assets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2 hash-col">
+          <p class="hash">#</p>
+        </div>
+        <div class="col-10">
+          <div class="head">
+            <h3>Algorithm</h3>
+          </div>
+          <p class="content-info">
+            Algorithms are self-contained sequences that carry out a vareity of tasks.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="assets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2">
+          <img class="featured-content-image" src="assets/amphp.png"></img>
+        </div>
+        <div class="col-10">
+          <div class="head">
+            <h3>Amp</h3>
+          </div>
+          <p class="content-info">
+            Amp is a non-blocking concurrency framework for php.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="assets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2">
+          <img class="featured-content-image" src="assets/android.png"></img>
+        </div>
+        <div class="col-10">
+          <div class="head">
+            <h3>Andriod</h3>
+          </div>
+          <p class="content-info">
+            Andriod is an operating system built by Google designed for mobile devices.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="assets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2">
+          <img class="featured-content-image" src="assets/angular.png"></img>
+        </div>
+        <div class="col-10">
+          <div class="head">
+            <h3>Angular</h3>
+          </div>
+          <p class="content-info">
+            Angular is an open source web application platform.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="assets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2">
+          <img class="featured-content-image" src="assets/ansible.png"></img>
+        </div>
+        <div class="col-10">
+          <div class="head">
+            <h3>Ansible</h3>
+          </div>
+          <p class="content-info">
+            Ansible is a simple and powerful automation engine.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="assets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2 hash-col">
+          <p class="hash">#</p>
+        </div>
+        <div class="col-10">
+          <div class="head">
+            <h3>API</h3>
+          </div>
+          <p class="content-info">
+            An API(Application Programming Interface) is a collection of protocols and subroutines for buildings softwares.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="assets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2">
+          <img class="featured-content-image" src="assets/arduino.png"></img>
+        </div>
+        <div class="col-10">
+          <div class="head">
+            <h3>Arduino</h3>
+          </div>
+          <p class="content-info">
+            Arduino is an open source hardware and software company and maker community.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="assets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2">
+          <img class="featured-content-image" src="assets/aspnet.png"></img>
+        </div>
+        <div class="col-10">
+          <div class="head">
+            <h3>ASP.NET</h3>
+          </div>
+          <p class="content-info">
+            ASP.NET is a modern web framework for building modern webapps and services.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="as¡sets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2">
+          <img class="featured-content-image" src="assets/atom.png"></img>
+        </div>
+        <div class="col-10">
+          <div class="head">
+            <h3>Atom</h3>
+          </div>
+          <p class="content-info">
+            Atom is a open source text editor built with web.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="as¡sets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="row each-featured-content-row">
+        <div class="col-2">
+          <img class="featured-content-image" src="assets/awesome.png"></img>
+        </div>
+        <div class="col-10">
+          <div class="head">
+            <h3>Awesome Lists</h3>
+          </div>
+          <p class="content-info">
+            Awesome Lists is a list of awesome things curated by the community.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="as¡sets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2">
+          <img class="featured-content-image" src="assets/aws.png"></img>
+        </div>
+        <div class="col-10">
+          <div class="head">
+            <h3>Amazon Web Services</h3>
+          </div>
+          <p class="content-info">
+            Amazon Web Services provides on-demand cloud computing platforms on subscription basis.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="as¡sets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2">
+          <img class="featured-content-image" src="assets/azure.png"></img>
+        </div>
+        <div class="col-10">
+          <div class="head">
+            <h3>Azure</h3>
+          </div>
+          <p class="content-info">
+            Azure is cloud computing service created by Microsoft.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="as¡sets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row each-featured-content-row">
+        <div class="col-2 hash-col">
+          <p class="hash">#</p>
+        </div>
+        <div class="col-10">
+          <div class="head">
+            <h3>Mobile</h3>
+          </div>
+          <p class="content-info">
+            Mobile apps, mobile os, mobile databases, & mobile testing frameworks.
+          </p>
+          <div class="rating">
+            <button type="button" class="btn btn-secondary btn-sm star-btn"><img src="as¡sets/star.svg"></img><span class="star-text">Star</span></button>
+          </div>
+        </div>
+      </div>
+      -->
+      <div class="card loadmore-card">
+        <div class="card-body">
+          <p class="loadmore align-center">Load More...</p>
+        </div>
+      </div>
+
+      <div class="popular-topics">
+        <h3 class="popular-topics-head">Popular topics</h3>
+
+        <span class="popular-topics-tag">react</span>
+        <span class="popular-topics-tag">javascript</span>
+        <span class="popular-topics-tag">css</span>
+        <span class="popular-topics-tag">python</span>
+        <span class="popular-topics-tag">html</span>
+        <span class="popular-topics-tag">ecommerce</span>
+        <span class="popular-topics-tag">python3</span>
+        <span class="popular-topics-tag">ecommerce-platform</span>
+        <span class="popular-topics-tag">nci-ictr</span>
+        <span class="popular-topics-tag">solidus-extensions</span>
       </div>
     </div>
   </body>
