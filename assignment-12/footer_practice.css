@@ -1,0 +1,95 @@
+.question-mark-image {
+    height: 16px;
+    padding-bottom: 2px;
+    object-fit: contain;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+.footer-class {
+    background-color: yellow;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-head-google {
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.link-container {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.links-list {
+    padding-left: 0px;
+}
+
+.link-of-list-item {
+    margin: 20px;
+    color: black;
+    font-size: 16px;
+}
+
+.footer-last-row {
+    display: inline-block;
+}
+
+.footer-last-item {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    font-size: 16px;
+}
+
+.navigation-row {
+    border-bottom: 1px solid black
+}
+
+.align-center {
+    text-align: center;
+}
+
+.landing-section-image {
+    height: 400px;
+    object-fit: contain;
+}
+
+.get-gmail-link-container {
+    margin-top: 50px;
+}
+
+.app-link-image {
+    width: 150px;
+}
+
+.mobile-section {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.mobile-section-3-item {
+    background-color: yellow;
+    background-clip: content-box;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.full-width {
+    width: 100px;
+}
+
+.get-gmail-button-in-navigation {
+    text-align: right;
+}
+
+.logo-gmail-container {
+    width: 50px;
+}
