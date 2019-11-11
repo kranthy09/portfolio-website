@@ -8,142 +8,10 @@
     <script src="../bootstrap/jquery.min.js"></script>
     <script src="../bootstrap/popper.min.js"></script>
     <script src="../bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assignment13.css" type="text/css" />
   </head>
-  <style>
-    .github-logo {
-      background-color: white;
-      filter: invert(100%);
-      margin-top: 14px;
-    }
-
-    .navigation-row {
-      background-color: black;
-      height: 50px;
-    }
-
-    .signup-btn {
-      color: white;
-      border: 1px solid white;
-      margin-top: 12px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-    }
-
-    .toggle {
-      height: 2px;
-      width: 20px;
-      margin-bottom: 0px;
-      margin-top: 5px;
-      background-color: white;
-    }
-
-    .toggle-row {
-      margin-top: 14px;
-    }
-
-    .align-center {
-      text-align: center;
-    }
-
-    .explore {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-
-    .main-content-col {
-      background-color: lightgrey;
-    }
-
-    .main-head {
-      font-size: 36px;
-      margin-bottom: 5px;
-      margin-top: 15px;
-    }
-
-    .main-head-caption {
-      margin-bottom: 40px;
-    }
-
-    .content-row {
-      margin-top: 20px;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-
-    .content-image {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 90px;
-      object-fit: contain;
-      margin-bottom: 10px;
-    }
-
-    .content-head {
-      margin-bottom: 5px;
-      font-size: 20px;
-    }
-
-    .content-head-caption {
-      font-size: 14px;
-    }
-
-    .each-featured-content-row {
-      padding-left: 10px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid black;
-      padding-top: 20px;
-    }
-
-    .featured-content-image {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      height: 70px;
-      object-fit: contain;
-    }
-
-    .featured-content-head {
-      margin-bottom: 5px;
-    }
-
-    .hash-col {
-      height: 70px;
-      background-color: lightgrey;
-    }
-
-    .hash {
-
-      padding: 20px;
-    }
-
-    .content-info {
-      font-size: 14px;
-      margin-bottom: 0px;
-    }
-
-    .star-btn {
-      background-color: white;
-      color: black;
-
-    }
-
-    .star-text {
-      margin-left: 5px;
-    }
-
-    .loadmore-card {
-      height: 60px;
-    }
-
-    .loadmore {
-      color: darkblue;
-
-    }
-  </style>
 
   <body>
-
     <div class="container-fluid">
       <div class="row navigation-row">
         <div class="col-8">
@@ -185,50 +53,54 @@
           </p>
         </div>
       </div>
+      <div class="row">
 
-      <div class="card content-row">
-        <div class="card-body">
-          <img class="content-image" src="assets/opengl.png"></img>
 
-          <p class="align-center content-head">OpenGL</p>
+        <div class="card content-row">
+          <div class="col-12 col-md-6 card-body">
+            <img class="content-image" src="assets/opengl.png"></img>
 
-          <p class="align-center content-head-caption">
-            OpenGL is software interface that allows a programmer to communicate with grraphic hardware
-          </p>
+            <p class="align-center content-head">OpenGL</p>
+
+            <p class="align-center content-head-caption">
+              OpenGL is software interface that allows a programmer to communicate with grraphic hardware
+            </p>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-6 card content-row">
+          <div class="card-body">
+            <img class="content-image" src="assets/flask.png"></img>
+
+            <p class="align-center content-head">Flask</p>
+
+            <p class="align-center content-head-caption">
+              Flask is web frame work for python based o the werczueg toolkit.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 card content-row">
+          <div class="card-body">
+            <img class="content-image" src="assets/gradle.png"></img>
+
+            <p class="align-center content-head">OpenGL</p>
+
+            <p class="align-center content-head-caption">
+              Gradle is a open-source build tool that helps team build,autommate and deliver better software and design.
+            </p>
+          </div>
         </div>
       </div>
-
-
-      <div class="card content-row">
-        <div class="card-body">
-          <img class="content-image" src="assets/flask.png"></img>
-
-          <p class="align-center content-head">Flask</p>
-
-          <p class="align-center content-head-caption">
-            Flask is web frame work for python based o the werczueg toolkit.
-          </p>
-        </div>
-      </div>
-
-      <div class="card content-row">
-        <div class="card-body">
-          <img class="content-image" src="assets/gradle.png"></img>
-
-          <p class="align-center content-head">OpenGL</p>
-
-          <p class="align-center content-head-caption">
-            Gradle is a open-source build tool that helps team build,autommate and deliver better software and design.
-          </p>
-        </div>
-      </div>
-
       <div class="featured-topics-content">
         <p class="featured-topics-head">
           ALl Featured Topics
         </p>
       </div>
 
+
+      <!--
       <div class="row each-featured-content-row">
         <div class="col-2 hash-col">
           <p class="hash">#</p>
@@ -487,7 +359,7 @@
           <p class="loadmore align-center">Load More...</p>
         </div>
       </div>
-
+      -->
       <div class="popular-topics">
         <h3 class="popular-topics-head">Popular topics</h3>
 

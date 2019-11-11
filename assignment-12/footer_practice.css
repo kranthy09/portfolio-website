@@ -49,7 +49,8 @@
 }
 
 .navigation-row {
-    border-bottom: 1px solid black
+    /*border-bottom: 1px solid black;*/
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
 }
 
 .align-center {
@@ -80,10 +81,16 @@
     background-clip: content-box;
     padding-left: 30px;
     padding-right: 30px;
+    border: 1px solid black;
 }
 
 .full-width {
-    width: 100px;
+    width: 100%;
+}
+
+.full-width-auto {
+    height: 400px;
+    object-fit: contain;
 }
 
 .get-gmail-button-in-navigation {
@@ -92,4 +99,53 @@
 
 .logo-gmail-container {
     width: 50px;
+}
+
+.logo-image-dimensions {
+    width: 75px;
+    object-fit: contain;
+}
+
+.get-started-content {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.landing-tablet-section {
+    background-color: whitesmoke;
+}
+
+.landing-section-tablet-content {
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.landing-section-content-head {
+    font-weight: 450;
+}
+
+.landing-section-content {
+    margin-bottom: 20px;
+}
+
+.landing-section-content-para {
+    font-size: 14px;
+}
+
+.left-item {
+    display: inline-block;
+    width: 50%;
+}
+
+.right-item {
+    display: inline-block;
+    width: 50%;
+}
+
+.tablet-section {
+    padding-top: 70px;
+}
+
+.tablet-section-4-item {
+    padding-top: 90px;
 }

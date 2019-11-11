@@ -1,0 +1,174 @@
+.github-logo {
+    background-color: white;
+    filter: invert(100%);
+    margin-top: 14px;
+}
+
+.navigation-row {
+    background-color: black;
+    height: 50px;
+}
+
+.signup-btn {
+    color: white;
+    border: 1px solid white;
+    margin-top: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.toggle {
+    height: 2px;
+    width: 20px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.toggle-row {
+    margin-top: 14px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.explore {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-content-col {
+    background-color: lightgrey;
+}
+
+.main-head {
+    font-size: 36px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.main-head-caption {
+    margin-bottom: 40px;
+}
+
+.content-row {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.content-head {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.content-head-caption {
+    font-size: 14px;
+}
+
+.each-featured-content-row {
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+}
+
+.featured-content-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    object-fit: contain;
+}
+
+.featured-content-head {
+    margin-bottom: 5px;
+}
+
+.hash-col {
+    height: 70px;
+    background-color: lightgrey;
+}
+
+.hash {
+
+    padding: 20px;
+}
+
+.content-info {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.star-btn {
+    background-color: white;
+    color: black;
+
+}
+
+.star-text {
+    margin-left: 5px;
+}
+
+.loadmore-card {
+    height: 60px;
+}
+
+.loadmore {
+    color: darkblue;
+
+}
+
+/*
+.navigation-row {
+    background-color: black;
+}
+
+.signup-button {
+    color: white;
+    border-color: white;
+}
+
+.div-element-margin-zero {
+    margin: 0px;
+}
+
+.toggle {}
+
+.toggle-line-top {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    background-color: white;
+    height: 2px;
+    width: 20px;
+}
+
+.toggle-line-last {
+    background-color: white;
+    height: 2px;
+    width: 20px;
+}
+
+.toggle-line {
+    background-color: white;
+    height: 2px;
+    width: 20px;
+    margin-bottom: 5px;
+}
+
+.github-logo {
+    margin-top: 10px;
+    background-color: white;
+    filter: invert(100%);
+}
+*/
