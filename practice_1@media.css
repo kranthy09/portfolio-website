@@ -1,6 +1,6 @@
 .test {
     height: 200px;
-    overflow: auto;
+    overflow: hidden;
 
 }
 
@@ -54,7 +54,7 @@
 @media screen and (min-width: 992px) {
     .test {
         background-color: yellow;
-        text-align: right;
+        text-align: center;
     }
 
     .p-tag {
