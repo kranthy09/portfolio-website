@@ -1,17 +1,63 @@
-@media (max-width: 767px) {
+.test {
+    height: 200px;
+    overflow: auto;
+
+}
+
+.span-tag {
+    background-color: green;
+    color: black;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 767px) {
     body {
-        background-color: green;
+        background-color: red;
     }
 }
 
-@media (min-width:768px) {
+@media only screen and (min-width:768px) {
     body {
         background-color: blue;
     }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     body {
         background-color: brown;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .test {
+        background-color: black;
+
+    }
+    .p-tag {
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .test {
+        background-color: skyblue;
+        text-align: center;
+    }
+
+    .p-tag {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .test {
+        background-color: yellow;
+        text-align: right;
+    }
+
+    .p-tag {
+        display: inline-block;
     }
 }
