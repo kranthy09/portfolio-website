@@ -1,0 +1,42 @@
+* {
+    border: 1px solid black;
+}
+
+.main-div-element {
+    text-align: center;
+    font-size: 0px;
+}
+
+.box-element {
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    background-clip: content-box;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+    .box-element {
+        width: 100%;
+        height: 150px;
+        padding: 5%;
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .box-element {
+        width: 50%;
+        height: 200px;
+        padding: 2%;
+
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .box-element {
+        width: 25%;
+        height: 183px;
+        padding: 2%;
+    }
+}

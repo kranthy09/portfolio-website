@@ -149,3 +149,25 @@
 .tablet-section-4-item {
     padding-top: 90px;
 }
+
+@media screen and (max-width: 767px) {
+    .suspicious-section {
+        padding-bottom: 15px;
+    }
+    .suspicious-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .suspicious-section {
+        padding-bottom: 100px;
+    }
+    .suspicious-mobile {
+        display: none;
+    }
+
+    .suspicious-desktop {
+        display: inline;
+    }
+}

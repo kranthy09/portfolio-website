@@ -1,0 +1,33 @@
+.navigation-container {
+  background-color: black;
+}
+
+.inline-block-property {
+  display: inline-block;
+}
+
+.github-logo {
+  filter: invert(100%);
+}
+
+.list-item {
+  display: inline-block;
+  color: white;
+}
+
+.link-buttons {
+  text-align: right;
+}
+
+.signin-link {
+  color: white;
+}
+
+.signup-link {
+  color: white;
+  border: 1px solid white;
+}
+
+* {
+  border: 1px solid red;
+}

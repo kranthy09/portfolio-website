@@ -1,0 +1,29 @@
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) {
+    .main-head {
+        border-bottom: 1px solid black;
+        padding-bottom: 25px;
+    }
+    .approach-element {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+        padding-right: 10px;
+    }
+    .tablet-section {
+        font-size: 0px;
+    }
+    p {
+        font-size: 20px;
+    }
+
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}

@@ -1,0 +1,44 @@
+@media screen and (max-width: 767px) {
+    .workforce {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .approach-element {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .global {
+        display: none;
+    }
+    .tablet-section {
+        font-size: 0px;
+    }
+    p {
+        font-size: 20px;
+        color: grey;
+    }
+
+}
+
+.top-level-element {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-head {
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}

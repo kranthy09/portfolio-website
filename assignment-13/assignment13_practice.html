@@ -10,59 +10,58 @@
     <script src="../bootstrap/bootstrap.min.js"></script>
   </head>
   <style>
-    .logo-container {
+    .outer-block {
       background-color: black;
-    }
-
-    .github-logo {
-      filter: invert(100%);
-    }
-
-    .test {
-      background-color: skyblue;
       height: 50px;
-      margin-bottom: 10px;
-
     }
 
-    .one {
-
-      border: 1px solid black;
-    }
-
-    .hash-tag {
-      backgrond-
+    .inner-block {
+      background-color: blue;
+      height: 50px;
     }
   </style>
 
   <body>
-    <div class="logo-container">
-      <img class="github-logo" src="assets/github-logo.svg" alt="oops!"></img>
+    <div class="navigation-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="logo-container inline-block-property">
+              <img class="github-logo" src="assets/github-logo.svg" alt="oops!"></img>
+            </div>
+            <ul class="list-item-container inline-block-property">
+              <li class="list-item">Why Github</li>
+              <li class="list-item">Enterprise</li>
+              <li class="list-item">Explore</li>
+              <li class="list-item">Marketplace</li>
+              <li class="list-item">pricing</li>
+              <li class="list-item">....Search....</li>
+            </ul>
+          </div>
+          <div class="col-md-4 link-buttons inline-block-property">
+            <a href="#" class="signin-link">Sign in</a>
+            <a href="#" class="btn btn-primary signup-link">Sign up</a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <ul class="list-unstyled">
-      <li class="media">
-        <div class="hash-tag">#</div>
-        <div class="media-body">
-          <h5 class="mt-0 mb-1">3D</h5>
-          3D modeling is the process of virtually developing the surface and structure of a 3D object.
-        </div>
-      </li>
-      <li class="media my-4">
-        <div class="hash-tag">#</div>
-        <div class="media-body">
-          <h5 class="mt-0 mb-1">List-based media object</h5>
-          Ajax is a technique for creating interactive web applications.
-        </div>
-      </li>
-      <li class="media">
-        <div class="hash-tag">#</div>
-        <div class="media-body">
-          <h5 class="mt-0 mb-1">List-based media object</h5>
-          Algorithms are self-contained sequences that carry out a vareity of tasks.
-        </div>
-      </li>
-    </ul>
+    <div class="nav-links">
+      <div class="container">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="outer-block">
+      <div class="container inner-block"></div>
+    </div>
+
   </body>
 
 </html>
