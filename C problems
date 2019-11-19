@@ -1,0 +1,13 @@
+1) Program to find the saddle point coordinates in a given matrix | Faceprep
+
+Program to find the saddle point coordinates in a given matrix is discussed here.  A saddle point is an element of the matrix, which is the minimum element in its row and the maximum in its column.
+
+For example, consider the matrix given below
+
+                1    2     3 
+
+Mat[3][3] =     4     5     6
+
+                7     8     9
+
+Here, 7 is the saddle point because it is the minimum element in its row and maximum element in its column
