@@ -1,22 +1,321 @@
-.main-container-head {
-    background-position: center;
-    background-size: cover;
-    background-image: url("https://www.w3schools.com/w3images/workbench.jpg");
-    min-height: 100%;
+/*GRID DEFINITION*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 60px auto auto;
+    grid-template-rows: 70px 200px;
+    grid-gap: 30px;
+    background-color: black;
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+
 }
 
-.intro-section {
-    vertical-align: bottom;
+.grid-item {
+    background-color: green;
+    padding-left: 15%;
+    font-size: 18px;
 }
 
-.intro-text {
-    margin-top: 100px;
-    color: black;
-    font-size: 26px;
-    margin-right: 30px;
+.navigation {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
 }
 
-.span-text {
-    font-style: bold;
-    color: green;
+.name-contact-section {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 8;
+    padding-top: 20%;
+    padding-bottom: 5%;
 }
+
+.myPic-section {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 8;
+}
+
+/*content classes*/
+
+.commonPropertiesInNameSection {
+    margin-bottom: 0px;
+    color: white;
+
+}
+
+.greet-item {
+    margin-bottom: 10px;
+}
+
+.greetMessage {
+    background-color: lightblue;
+}
+
+.name-item {
+    margin-bottom: 0px;
+}
+
+.name {
+    font-size: 28px;
+    margin-bottom: 0px;
+
+}
+
+.profession-item {
+    margin-bottom: 20px;
+}
+
+.profession {
+    font-size: 16px;
+
+}
+
+.eMail {
+    font-size: 14px;
+}
+
+.number {
+    font-size: 14px;
+}
+
+.address {
+    font-size: 14px;
+}
+
+* {
+    border: 1px solid red;
+}
+
+
+
+
+
+
+/*.main-container-head {*/
+
+/*    background-position: center;*/
+
+/*    background-size: cover;*/
+
+/*    background-image: url("https://www.w3schools.com/w3images/workbench.jpg");*/
+
+/*    min-height: 100%;*/
+
+/*}*/
+
+/*.intro-section {*/
+
+/*    vertical-align: bottom;*/
+
+/*}*/
+
+/*.intro-text {*/
+
+/*    margin-top: 100px;*/
+
+/*    color: black;*/
+
+/*    font-size: 26px;*/
+
+/*    margin-right: 30px;*/
+
+/*}*/
+
+/*.span-text {*/
+
+/*    font-style: bold;*/
+
+/*    color: green;*/
+
+/*}*/
+
+/*.about-me-head {*/
+
+/*    font-size: 30px;*/
+
+/*}*/
+
+/*.about-me-intro {*/
+
+/*    padding-left: 25px;*/
+
+/*    padding-right: 10px;*/
+
+/*}*/
+
+/*.align-center {*/
+
+/*    text-align: center;*/
+
+/*}*/
+
+/*.contact-buttons-section {*/
+
+/*    margin-bottom: 20px;*/
+
+/*}*/
+
+/*.contact-me-btn {*/
+
+/*    background-color: green;*/
+
+/*    border: 0px;*/
+
+/*    height: 50px;*/
+
+/*    width: 150px;*/
+
+/*}*/
+
+/*.know-more-btn {*/
+
+/*    border: 0.75px solid green;*/
+
+/*    height: 50px;*/
+
+/*    width: 150px;*/
+
+/*}*/
+
+/*.description-text {*/
+
+/*    color: grey;*/
+
+/*}*/
+
+/* skills section*/
+
+/*.skills-head-text {*/
+
+/*    font-size: 30px;*/
+
+/*}*/
+
+/*.skills-container {*/
+
+/*    padding: 20px;*/
+
+/*    display: inline-block;*/
+
+/*}*/
+
+/*.skills-container-item {*/
+
+/*    background-color: #2e2e14;*/
+
+/*    transform: rotate(45deg);*/
+
+/*    display: inline-block;*/
+
+/*    height: 85px;*/
+
+/*    width: 85px;*/
+
+/*    margin-bottom: 25px;*/
+
+/*}*/
+
+/*.skills-image-item {*/
+
+/*    transform: rotate(-45deg);*/
+
+/*    height: 50px;*/
+
+/*    object-fit: contain;*/
+
+/*    margin: 20px;*/
+
+/*}*/
+
+/*.skills-description {*/
+
+/*    display: inline-block;*/
+
+/*    margin-left: 15px;*/
+
+/*    font-size: 22px;*/
+
+/*}*/
+
+/* Project - section */
+
+/*.project-container-wrapper {*/
+
+/*    padding-left: 10px;*/
+
+/*    padding-right: 10px;*/
+
+/*}*/
+
+/*.project-container-head {*/
+
+/*    font-size: 30px;*/
+
+/*}*/
+
+/*.project-container {}*/
+
+/*.project-head {*/
+
+/*    background-color: #336600;*/
+
+/*    font-size: 26px;*/
+
+/*    margin: 0px;*/
+
+/*    height: 50px;*/
+
+/*    padding-left: 5px;*/
+
+/*}*/
+
+/*.project-subtitle {*/
+
+/*    background-color: #69bd57;*/
+
+/*    height: 40px;*/
+
+/*    font-size: 22px;*/
+
+/*    vertical-align: bottom;*/
+
+/*    margin: 0px;*/
+
+/*    padding-left: 5px;*/
+
+/*}*/
+
+/*.project-content {*/
+
+/*    background-color: #c4f791;*/
+
+/*}*/
+
+/* my Education section */
+
+/*.education-image {*/
+
+/*    background-color: lightgrey;*/
+
+/*    height: 200px;*/
+
+/*}*/
+
+/*.education-container-item {*/
+
+/*    margin-bottom: 20px;*/
+
+/*}*/
+
+/*.card-text {*/
+
+/*    text-align: left;*/
+
+/*}*/
+
+/*n*/
