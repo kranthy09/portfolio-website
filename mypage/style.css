@@ -3,7 +3,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: 60px auto auto;
-    grid-template-rows: 70px 200px;
+    grid-template-rows: 40px 200px;
     grid-gap: 30px;
     background-color: black;
     padding: 10px;
@@ -13,8 +13,8 @@
 }
 
 .grid-item {
-    background-color: green;
-    padding-left: 15%;
+    background-color: #907878;
+    padding-left: 10%;
     font-size: 18px;
 }
 
@@ -40,10 +40,11 @@
     grid-row-end: 8;
 }
 
+
 /*content classes*/
 
 .commonPropertiesInNameSection {
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     color: white;
 
 }
@@ -87,14 +88,19 @@
     font-size: 14px;
 }
 
-* {
-    border: 1px solid red;
+.contact-image-icon-item {
+    height: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+
 }
 
+/** {
+    */
 
+/*    border: 1px solid red;*/
 
-
-
+/*}*/
 
 /*.main-container-head {*/
 
