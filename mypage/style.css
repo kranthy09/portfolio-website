@@ -13,7 +13,7 @@
 }
 
 .grid-item {
-    background-color: #907878;
+    background-color: #907866;
     padding-left: 10%;
     font-size: 18px;
 }
@@ -94,6 +94,29 @@
     margin-right: 10px;
 
 }
+
+.social-icons {
+    margin-top: 10%;
+
+}
+
+.social-icon-item {
+    height: 30px;
+    object-fit: contain;
+    margin-right: 6%;
+    filter: invert(100%);
+}
+
+
+/*PIC SECTION*/
+
+.mypic {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
 
 /** {
     */
