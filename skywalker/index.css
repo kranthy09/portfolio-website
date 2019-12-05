@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.components-container {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.main-header {
+  height: 200px;
+  width: 100%;
+   background-color: red;
+}
+
+.about-me-section {
+  height: 200px;
+  width: 100%;
+  background-color: blue;
+}
+
+.what-i-do-section {
+  height: 200px;
+  width: 100%;
+   background-color: lightgrey;
+}
+
+.technical-skills-section {
+  height: 200px;
+  width: 100%;
+   background-color: black;
+   color: white;
+}
+
+.professional-skills-section {
+  height: 200px;
+  width: 100%;
+   background-color: orange;
+}
+
+.education-section {
+  height: 200px;
+  width: 100%;
+   background-color: yellow;
+}
+
+.work-experience-section {
+  height: 200px;
+  width: 100%;
+   background-color: grey;
+}
+
+.footer-section {
+  height: 200px;
+  width: 100%;
+   background-color: brown;
+}
+
+@media (min-width: 992px) {
+  .components-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .main-header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .about-me-section {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .what-i-do-section {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .technical-skills-section {
+    height: 200px;
+    width: 100%;
+     background-color: black;
+     color: white;
+  }
+
+  .professional-skills-section {
+    height: 200px;
+    width: 100%;
+     background-color: orange;
+  }
+
+  .education-section {
+    height: 200px;
+    width: 100%;
+     background-color: yellow;
+  }
+
+  .work-experience-section {
+    height: 200px;
+    width: 100%;
+     background-color: grey;
+  }
+
+  .footer-section {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
