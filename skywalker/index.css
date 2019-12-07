@@ -64,11 +64,56 @@ body {
 .about-me-section {
   height: 200px;
   width: 100%;
-  background-color: blue;
+  background-color: black;
   display: grid;
   grid-template-columns: 1fr;
+  height: auto;
+  text-align: center;
 }
 
+.about-me-image-area
+{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.about-me-image-item
+{
+  height: 150px;
+  object-fit: contain;
+}
+
+.about-me-content-area {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.about-me-content-head {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: white;
+}
+
+.about-me-content-paragraph {
+  font-size: 22px;
+  color: white;
+}
+
+.about-me-skill-set-intro {
+  margin-top: 3%;
+}
+
+.skill-set-item {
+  display: inline-block;
+  margin-right: 5%;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  font-size: 22px;
+  padding: 5px;
+}
+
+/* what i do section */
 .what-i-do-section {
   height: 200px;
   width: 100%;
@@ -136,12 +181,11 @@ body {
     font-size: 24px;
   }
   .name-feild {
-    
+
   }
   .detail-item-container {
     list-style-type: none;
   }
-
   .profile-pic-area {
     margin-left: 30%;
     margin-right: 30%;
@@ -155,8 +199,47 @@ body {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-template-columns: 1fr 1fr;
+    height: auto;
+  }
+  .about-me-image-area
+  {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .about-me-image-item
+  {
+    height: 300px;
+    object-fit: contain;
   }
 
+  .about-me-content-area {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .about-me-content-head {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+  }
+
+  .about-me-content-paragraph {
+    font-size: 24px;
+    color: white;
+  }
+
+  .skill-set-item {
+    display: inline-block;
+    margin-right: 5%;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    padding: 5px;
+  }
+
+/* what i do section */
   .what-i-do-section {
     grid-column-start: 1;
     grid-column-end: 3;
