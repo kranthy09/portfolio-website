@@ -128,9 +128,16 @@ body {
     margin-right: 30%;
     margin-top: 10%;
     margin-bottom: 10%;
-
   }
-
+  .greet-feild {
+    border-radius: 5px;
+    display: inline-block;
+    background-color: green;
+    font-size: 24px;
+  }
+  .name-feild {
+    
+  }
   .detail-item-container {
     list-style-type: none;
   }
@@ -143,7 +150,7 @@ body {
   }
 
   /* About Me section with intro and image */
-  
+
   .about-me-section {
     grid-column-start: 1;
     grid-column-end: 3;
