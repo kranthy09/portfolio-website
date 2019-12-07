@@ -42,16 +42,27 @@ body {
 }
 
 .my-details-area {
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-left: 30%;
   color: white;
 
 }
 
 .detail-item-container {
   list-style-type: none;
+}
+
+.greet-feild {
+  background-color: green;
+  padding: 10px;
+  display: inline-block;
+}
+
+.name-feild {
+  font-size: 28px;
+}
+
+.email-feild {
+  font-size: 20px;
 }
 
 .social-icon-item {
@@ -63,10 +74,7 @@ body {
 }
 
 .profile-pic-area {
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  text-align: center;
 }
 
 .profile-pic-container {
@@ -87,14 +95,13 @@ body {
   text-align: center;
 }
 
-.about-me-image-area
-{
+.about-me-image-area {
   text-align: center;
   padding-top: 2%;
   padding-bottom: 2%;
 }
-.about-me-image-item
-{
+
+.about-me-image-item {
   height: 150px;
   object-fit: contain;
 }
@@ -130,6 +137,7 @@ body {
 }
 
 /* what i do section */
+
 .what-i-do-section {
   height: 200px;
   width: 100%;
@@ -195,7 +203,7 @@ body {
     font-size: 24px;
   }
   .name-feild {
-
+    font-size: 28px;
   }
   .detail-item-container {
     list-style-type: none;
@@ -214,24 +222,18 @@ body {
   }
 
   /* About Me section with intro and image */
-<<<<<<< HEAD
-=======
-
->>>>>>> 61c29ce44d6c9873e2b742b7822ce9ac18dc91cf
   .about-me-section {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-template-columns: 1fr 1fr;
     height: auto;
   }
-  .about-me-image-area
-  {
+  .about-me-image-area {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
   }
-  .about-me-image-item
-  {
+  .about-me-image-item {
     height: 300px;
     object-fit: contain;
   }
@@ -262,7 +264,7 @@ body {
     padding: 5px;
   }
 
-/* what i do section */
+  /* what i do section */
   .what-i-do-section {
     grid-column-start: 1;
     grid-column-end: 3;
