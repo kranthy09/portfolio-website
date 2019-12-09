@@ -171,10 +171,42 @@ body {
 /* what i do section */
 
 .what-i-do-section {
-  height: 200px;
   width: 100%;
   background-color: lightgrey;
 }
+
+/*card starts here*/
+
+.card {
+  display: inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: black;
+  color: white;
+
+}
+
+.card-image {
+  padding: 10px;
+  background-color: green;
+}
+
+.card-title {
+  background-color: darkgrey;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.card-content {
+  padding: 20px;
+  font-size: 18px;
+}
+
+/*card ends here*/
 
 .technical-professional-skills {
   height: 200px;
@@ -342,14 +374,33 @@ body {
   .what-i-do-section {
     grid-column-start: 1;
     grid-column-end: 3;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   /*cards*/
   .card {
     display: inline-block;
     width: 30%;
-    margin-left: 1%;
-    margin-right: 1%;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .card-image {
+    padding: 30px;
+    background-color: green;
+  }
+
+  .card-title {
+    background-color: darkgrey;
+    padding: 30px;
+    font-size: 26px;
+  }
+
+  .card-content {
+    padding: 40px;
+    font-size: 22px;
   }
 
   /*card ends here*/
