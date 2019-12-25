@@ -374,8 +374,6 @@ body {
   .what-i-do-section {
     grid-column-start: 1;
     grid-column-end: 3;
-    padding-left: 10%;
-    padding-right: 10%;
   }
 
   /*cards*/
