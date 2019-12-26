@@ -1,72 +1,75 @@
-#include < stdio.h >
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-    int main() {
-        int i;
-        scanf("%d", & i);
-        int * j;
-        int ** k;
-        j = & i;
-        k = & j;
-        k++;
-        printf("%d ", k);
-        return 0;
-    }
+    <head>
+        <title>Portfolio Web</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css" type="text/css" />
+        <script src="bootstrap/jquery.min.js"></script>
+        <script src="bootstrap/popper.min.js"></script>
+        <script src="bootstrap/bootstrap.min.js"></script>
+    </head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
 
+        .main-head {
+            text-align: center;
+            margin-top: 3%;
 
-#include <stdio.h>
-void fun(void *p);
-int i;
+        }
 
-int main()
-{
-    void *vptr;
-    scanf("%d", &i);
-    vptr = &i;
-    fun(vptr);
-    return 0;
-}
+        .main-head-caption {
+            text-align: center;
+            font-size: 16px;
+            font-weight: 300;
+        }
 
-void fun(void *p)
-{
-    int **q;
-    q = (int **)&p;
-    printf("%d", **q);
-}
+        .section-b {
+            padding-left: 2%;
+            list-style: none;
+        }
 
+        .section-b-item {
+            margin-top: 2%;
+            margin-bottom: 2%;
+            border: 1px solid black;
+            padding: 3%;
+        }
+    </style>
 
-#include <stdio.h>
-int *check(int, int);
+    <body>
+        <div class="main-content">
+            <h4 class="main-head">Revised doubts</h4>
+            <p class="main-head-caption">Pointers Exam conducted on 25th Dec, 2019.</p>
+        </div>
+        <ul class="section-b">
+            <li class="section-b-item">
+                #include
+                <span><</span> <span>stdio.h</span> <span>></span> <br> int main()<br> { <br>int i;<br> scanf("%d", & i);<br> int * j;<br> int ** k;<br> j = & i;<br> k = & j;<br> k++;<br> printf("%d ", k);<br> return 0; }
+            </li>
+            <li class="section-b-item">
+                #include
+                <span><</span> <span>stdio.h</span> <span>></span> void fun(void *p);<br> int i;<br> int main()<br> {<br> void *vptr;<br> scanf("%d", &i);<br> vptr = &i;<br> fun(vptr);<br> return 0;<br> }<br> void fun(void *p) <br>{ <br>int **q;<br> q
+                = (int **)&p;<br> printf("%d", **q);
+                <br> }<br>
+            </li>
+            <li class="section-b-item">
+                #include
+                <span><</span> <span>stdio.h</span> <span>></span> <br> int *check(int, int);<br> int main()<br> {<br> int *c;<br> int a, b;<br> scanf("%d %d", &a, &b);<br> c = check(a, b);<br> printf("%d", *c);<br> return 0;<br> }<br> int *check(int
+                i, int j) <br>{<br> int *p, *q;
+                <br> p = &i;<br> q = &j;
+                <br> if (i >= 45) <br>return (p);<br> else <br>return (q);<br> }<br>
+            </li>
+            <li class="section-b-item">
+                #include
+                <span><</span> <span>stdio.h</span> <span>></span> <br> int main()<br> {<br> char *str = "IncludeHelp";<br> scanf("%s", str);<br> printf("%c",*&*str);<br> return 0;<br> }<br>
+            </li>
+        </ul>
+    </body>
 
-int main()
-{
-    int *c;
-    int a, b;
-    scanf("%d %d", &a, &b);
-    c = check(a, b);
-    printf("%d", *c);
-    return 0;
-}
-
-int *check(int i, int j)
-{
-    int *p, *q;
-    p = &i;
-    q = &j;
-    if (i >= 45)
-        return (p);
-    else
-        return (q);
-}
-
-
-#include <stdio.h>
-
-int main()
- { 
-char *str = "IncludeHelp";
-
-scanf("%s", str);
-
-printf("%c",*&*str);
-return 0;
-}
+</html>
