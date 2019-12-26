@@ -218,3 +218,67 @@ scanf("%d", &x[i] [j]) ;
 printf("%d %d %d", x+3, *(x+3), *(x+2) + 3);
 return 0;
 }
+
+--------
+
+
+
+
+# include < stdio.h >
+
+    int main() {
+        int arr[3][3];
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                scanf("%d", & arr[i][j]);
+            }
+        }
+        printf("%d\n", *( * ( * (arr))));
+        return 0;
+    }
+
+
+    -- -- -- -- -- -- -
+
+    #include < stdio.h >
+
+    int main() {
+        int k;
+        scanf("%d", & k);
+        int * p = & k;
+        int ** m = & p;
+        printf("%d %d %d", k, * p, ** p);
+        return 0;
+    }
+
+    -- -- -- --
+
+    #include < stdio.h >
+
+    int main() {
+        int i;
+        scanf("%d", & i);
+        int * j;
+        int ** k;
+        j = & i;
+        k = & j;
+        k++;
+        printf("%d ", k);
+        return 0;
+    }
+
+    -- -- -- -- -- -
+
+    #include < stdio.h >
+
+    int main() {
+        int i = 5, * ptr;
+        ptr = & i;
+        void * vptr;
+        vptr = & ptr;
+        printf("%d ", ? );
+        return 0;
+    }
+
+    -- -- -- --
