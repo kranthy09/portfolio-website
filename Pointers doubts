@@ -1,0 +1,220 @@
+#include <stdio.h>
+void foo( int[] );
+
+int main()
+{
+    int ary[4], i;
+    for(i = 0; i < 4; i++)
+        scanf("%d", &ary[i]);
+
+    foo(ary);
+    printf("%d", ary[0]);
+}
+
+void foo(int p[4])
+{
+    int i = 10;
+    p = &i;
+    printf("%d ", p[0]);
+}
+
+-----------
+
+
+you cannot have void as array data type
+
+
+------------
+
+#include <stdio.h>
+
+int main()
+{
+    char *ptr = "void pointer";
+    void *vptr;
+    vptr = &ptr;
+    printf("%s" , ?);
+    return 0;
+}
+
+
+--------
+
+#include <stdio.h>
+void fun(void *p);
+int i;
+
+int main()
+{
+    void *vptr;
+    scanf("%d", &i);
+    vptr = &i;
+    fun(vptr);
+    return 0;
+}
+
+void fun(void *p)
+{
+    int **q;
+    q = (int **)&p;
+    printf("%d", **q);
+}
+
+
+-------
+
+#include <stdio.h>
+
+int main()
+{
+    static int arr[5];
+    for(int j = 0; j < 5; j++)
+    {
+        scanf("%d", &arr[j]);
+    }
+    int *p[] = {arr, arr + 1, arr + 2, arr + 3, arr + 4};
+    int **ptr = p;
+    ptr++;
+    printf("%d %d %d ", ptr - p, *ptr - arr, **ptr);
+    *ptr++;
+    printf("%d %d %d ", ptr - p, *ptr - arr, **ptr);
+    *++ptr;
+    printf("%d %d %d ", ptr - p, *ptr - arr, **ptr);
+    ++*ptr;
+    printf("%d %d %d ", ptr - p, *ptr - arr, **ptr);
+    return 0;
+}
+
+------
+
+
+#include <stdio.h>
+
+int main()
+{
+    int i, *p = &i;
+    scanf("%d", &i);
+    foo(&p);
+    printf("%d", *p);
+    return 0;
+}
+
+void foo(int **p)
+{
+    int j;
+    scanf("%d", &j);
+    *p = &j;
+    printf("%d ", **p);
+}
+
+------
+
+#include <stdio.h>
+int *check(int, int);
+
+int main()
+{
+    int *c;
+    int a, b;
+    scanf("%d %d", &a, &b);
+    c = check(a, b);
+    printf("%d", *c);
+    return 0;
+}
+
+int *check(int i, int j)
+{
+    int *p, *q;
+    p = &i;
+    q = &j;
+    if (i >= 45)
+        return (p);
+    else
+        return (q);
+}
+------------------------
+# include < stdio.h >
+
+    int main() {
+        int arr[3][3];
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                scanf("%d", & arr[i][j]);
+            }
+        }
+        printf("%d\n", *( * ( * (arr))));
+        return 0;
+    }
+
+
+    -- -- -- -- -- -- -
+
+    #include < stdio.h >
+
+    int main() {
+        int k;
+        scanf("%d", & k);
+        int * p = & k;
+        int ** m = & p;
+        printf("%d %d %d", k, * p, ** p);
+        return 0;
+    }
+
+    -- -- -- --
+
+    #include < stdio.h >
+
+    int main() {
+        int i;
+        scanf("%d", & i);
+        int * j;
+        int ** k;
+        j = & i;
+        k = & j;
+        k++;
+        printf("%d ", k);
+        return 0;
+    }
+
+    -- -- -- -- -- -
+
+#include <stdio.h>
+
+int main()
+ { 
+char *str = "IncludeHelp";
+
+scanf("%s", str);
+
+printf("%c",*&*str);
+return 0;
+}
+--------
+
+#include <studio.h>
+
+int main()
+{
+char * str ="Includehelp" ;
+scanf("%s", str) ;
+printf("%c", *&*str) ;
+return 0;
+}
+
+-------
+Address of x is 2000,
+#include <stdio.h>
+int main()
+{
+int x[2][3];
+for(int i =0;i<2;i++)
+{
+for(int j =0;j<3;j++)
+{
+scanf("%d", &x[i] [j]) ;
+}
+}
+printf("%d %d %d", x+3, *(x+3), *(x+2) + 3);
+return 0;
+}
