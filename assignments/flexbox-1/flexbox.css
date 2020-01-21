@@ -25,37 +25,37 @@
 }
 
 .html_block {
-    background-color: lightblue;
+    background-color: #6495ED;
 }
 
 .css_block {
-    background-color: violet;
+    background-color: DarkMagenta;
 }
 
 .bs_block {
-    background-color: orange;
+    background-color: DarkOrange;
 }
 
 .js_block {
-    background-color: lightgreen;
+    background-color: #00CED1;
 }
 
 .item_container {
     display: flex;
     align-items: center;
     height: 700px;
-    width: 100px;
+    flex-grow: 1;
     justify-content: center;
 }
 
 @media (min-width: 768px) {
     .item_container {
-        width: 180px;
+        flex-grow: 2;
     }
 }
 
 @media (min-width: 1024px) {
     .item_container {
-        width: 300px;
+        flex-grow: 3;
     }
 }
