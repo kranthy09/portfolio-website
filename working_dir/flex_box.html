@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+        <style type="text/css">
+            body {
+                padding: 80px;
+            }
+
+            .container {
+                background-color: lightgrey;
+                border-radius: 30px;
+            }
+
+            .flex-box {
+                display: flex;
+                justify-content: space-around;
+                height: 100%;
+                flex-wrap: wrap;
+            }
+
+            .icons_container {
+                padding: 20px;
+                margin: 5px;
+                border: 1px green solid;
+                border-radius: 10000px;
+                background-color: white;
+            }
+
+            .football_icon {
+                align-self: flex-start;
+                flex-grow: 2;
+            }
+
+            .basketball_icon {
+                align-self: center;
+                flex-grow: 1;
+            }
+
+            .rugby_icon {
+                align-self: center;
+            }
+
+            .tennis_icon {
+                align-self: flex-end;
+                flex-grow: 1;
+            }
+
+            .cricket_icon {
+                align-self: center;
+                flex-grow: 3;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="flex-box">
+                <div class="icons_container football_icon">
+                    ⚽️
+                    <p>I play football</p>
+                </div>
+                <div class="icons_container basketball_icon">
+                    🏀
+                    <p>basketball</p>
+                </div>
+                <div class="icons_container tennis_icon">
+                    🥎
+                    <p>i used watch it</p>
+                </div>
+                <div class="icons_container cricket_icon">
+                    🏏
+                    <p>cricket, its a gentleman game</p>
+                </div>
+                <div class="icons_container football_icon">
+                    🏂
+                    <p>skating,woah!!</p>
+                </div>
+                <div class="icons_container rugby_icon">
+                    🏈
+                    <p>I never Played rugby</p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,61 @@
+.flex-box {
+    display: flex;
+    align-items: center;
+}
+
+
+.html_image {
+    object-fit: contain;
+    width: 100px;
+}
+
+.css_image {
+    object-fit: contain;
+    width: 100px;
+}
+
+.bs_image {
+    object-fit: contain;
+    width: 100px;
+}
+
+.js_image {
+    object-fit: contain;
+    width: 100px;
+}
+
+.html_block {
+    background-color: lightblue;
+}
+
+.css_block {
+    background-color: violet;
+}
+
+.bs_block {
+    background-color: orange;
+}
+
+.js_block {
+    background-color: lightgreen;
+}
+
+.item_container {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 100px;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .item_container {
+        width: 180px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .item_container {
+        width: 300px;
+    }
+}
