@@ -6,27 +6,6 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link rel="stylesheet" type="text/css" href="flexbox_attempt2.css" />
-
-        <style type="text/css">
-            .container {
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-            }
-
-            .logo-section {
-                height: 50px;
-                border-radius: 1000px;
-                object-fit: contain;
-            }
-
-            .content-section {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                justify-content: flex-start;
-            }
-        </style>
     </head>
 
     <body>
@@ -35,13 +14,32 @@
             <div class="content-section">
                 <div class="header-content">
                     <p class="head-name">Twitter</p>
-                    <img src="assets/tick.svg"></img>
-                    <p class=twitter-text>Twitter</p>
+                    <img class="tick_image" src="assets/tick.svg"></img>
+                    <p class=twitter-text>@Twitter</p>
                     <p class="dot-item">.</p>
-                    <img class="dropdown" src="assets/drop_down.svg"></img>
+                    <p class=date>Jan 1</p>
+                    <img class="dropdown_img" src="assets/drop_down.svg"></img>
+
                 </div>
-                <div class="message-body"></div>
-                <div class="social-navigation"></div>
+                <div class="message-body">
+                    <p class="tweet-message">New decade,drink water</p>
+                </div>
+                <div class="social-navigation">
+                    <div class="social-navigation-item">
+                        <img class="social_info_image" src="assets/message.svg"></img>
+                        <p class="social_numbers">13.5K</p>
+                    </div>
+                    <div class="social-navigation-item">
+
+                        <img class="social_info_image" src="assets/retweet.svg"></img>
+                        <p class="social_numbers">290.8K</p>
+                    </div>
+                    <div class="social-navigation-item">
+                        <img class="social_info_image" src="assets/like.svg"></img>
+                        <p class="social_numbers">943.1K</p>
+                    </div>
+                    <img class="social_info_image" src="assets/share.svg"></img>
+                </div>
             </div>
         </div>
     </body>
