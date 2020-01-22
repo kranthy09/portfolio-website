@@ -87,6 +87,11 @@ p {
     margin-right: 5px;
 }
 
+
+.social_info_image_lg {
+    display: none;
+}
+
 .social_numbers {
     color: grey;
 
@@ -109,5 +114,9 @@ p {
 
     .social-navigation {
         width: 700px;
+    }
+
+    .social_info_image_for_small {
+        display: none
     }
 }
