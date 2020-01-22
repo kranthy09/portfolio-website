@@ -119,4 +119,8 @@ p {
     .social_info_image_for_medium {
         display: none
     }
+
+    .social_info_image_lg {
+        display: inline-block;
+    }
 }
