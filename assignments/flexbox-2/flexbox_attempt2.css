@@ -84,7 +84,14 @@ p {
 }
 
 .social_info_image {
+    height: 25px;
     margin-right: 5px;
+    object-fit: contain;
+}
+
+.social_info_image_for_medium {
+    height: 25px;
+    object-fit: contain;
 }
 
 
@@ -122,5 +129,7 @@ p {
 
     .social_info_image_lg {
         display: inline-block;
+        height: 25px;
+        object-fit: contain;
     }
 }
