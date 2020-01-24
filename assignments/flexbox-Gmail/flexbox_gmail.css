@@ -1,0 +1,91 @@
+/** {*/
+
+/*    border: 1px solid black;*/
+
+/*}*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper {
+    padding-top: 20px;
+}
+
+/*------Navigation-------*/
+
+/*logo-section*/
+
+.logo_content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 25px;
+    object-fit: contain;
+    margin-right: 5px;
+}
+
+.logo-text {
+    font-size: 22px;
+    color: grey;
+}
+
+.logo-button {
+    color: white;
+    background-color: blue;
+    margin-left: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid black;
+}
+
+/*  nav - menu - section */
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu-item {
+    padding: 10px;
+    color: gray;
+}
+
+.nav-menu-button-item {
+    display: none;
+}
+
+/* Main content starts */
+
+/* Get more done with Gmail */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+.flex-container-image {
+    height: 250px;
+    object-fit: contain;
+}
+
+.flex-container-item {
+    margin-bottom: 15px;
+}
+
+.flex-container-app-store-image {
+    height: 50px;
+    object-fit: contain;
+}
