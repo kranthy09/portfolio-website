@@ -1,9 +1,3 @@
-/** {*/
-
-/*    border: 1px solid black;*/
-
-/*}*/
-
 body {
     margin: 0;
     padding: 0;
@@ -15,15 +9,21 @@ body {
 
 /*------Navigation-------*/
 
+.navigation {}
+
 /*logo-section*/
 
 .logo_content {
     display: flex;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid lightgrey;
+
 }
 
 .logo {
-    height: 25px;
+    height: 20px;
     object-fit: contain;
     margin-right: 5px;
 }
@@ -50,6 +50,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid lightgrey;
+    font-size: 14px;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.09);
 }
 
 .nav-menu-item {
