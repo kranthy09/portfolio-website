@@ -15,6 +15,7 @@ body {
 
 .logo_content {
     display: flex;
+    width: 100%;
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
@@ -37,38 +38,48 @@ body {
     color: white;
     background-color: blue;
     margin-left: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     border: 1px solid black;
+    margin-bottom: 5px;
 }
 
 /*  nav - menu - section */
 
 .nav_menu {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-bottom: 1px solid lightgrey;
     font-size: 14px;
     box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.09);
 }
 
 .nav-menu-item {
-    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     color: gray;
 }
 
 .nav-menu-button-item {
     display: none;
+    border-bottom: 1px solid lightgrey;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.09);
 }
 
 /* Main content starts */
 
 /* Get more done with Gmail */
+
+.main-contanier {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 .flex-container {
     display: flex;
@@ -76,13 +87,31 @@ body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+
+.flex-container-head {
+    font-size: 34px;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container-text {
+    font-family: arial;
 }
 
 .flex-container-image {
-    height: 250px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.flex-container-experience_image {
+    height: 150px;
     object-fit: contain;
 }
 
@@ -91,6 +120,6 @@ body {
 }
 
 .flex-container-app-store-image {
-    height: 50px;
+    height: 25px;
     object-fit: contain;
 }

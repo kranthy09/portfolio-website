@@ -3,6 +3,13 @@
     align-items: center;
 }
 
+.item_container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-grow: 1;
+    justify-content: center;
+}
 
 .html_image {
     object-fit: contain;
@@ -38,24 +45,4 @@
 
 .js_block {
     background-color: #00CED1;
-}
-
-.item_container {
-    display: flex;
-    align-items: center;
-    height: 700px;
-    flex-grow: 1;
-    justify-content: center;
-}
-
-@media (min-width: 768px) {
-    .item_container {
-        flex-grow: 2;
-    }
-}
-
-@media (min-width: 1024px) {
-    .item_container {
-        flex-grow: 3;
-    }
 }
