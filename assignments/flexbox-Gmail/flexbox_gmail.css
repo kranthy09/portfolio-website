@@ -1,8 +1,10 @@
-body {
-    margin: 0;
-    padding: 0;
-}
 
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Product Sans",Arial,Helvetica,sans-serif;
+}
 .content-wrapper {
     padding-top: 20px;
 }
@@ -13,51 +15,51 @@ body {
 
 /*logo-section*/
 
-.logo_content {
+.logo-section {
     display: flex;
-    width: 100%;
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 10px;
     border-bottom: 1px solid lightgrey;
 
 }
 
 .logo {
-    height: 20px;
+    height: 24px;
     object-fit: contain;
     margin-right: 5px;
 }
 
 .logo-text {
-    font-size: 22px;
+    font-size: 26px;
+    font-weight: 400
     color: grey;
+    font-family: "Product Sans",Arial,Helvetica,sans-serif;
 }
 
 .logo-button {
-    color: white;
-    background-color: blue;
     margin-left: auto;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: 1px solid black;
-    margin-bottom: 5px;
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
 }
 
 /*  nav - menu - section */
 
-.nav_menu {
+.nav-menu {
     display: flex;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
     border-bottom: 1px solid lightgrey;
-    font-size: 14px;
+    font-size:16px;
     box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.09);
+
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .nav-menu-item {
@@ -68,8 +70,7 @@ body {
 
 .nav-menu-button-item {
     display: none;
-    border-bottom: 1px solid lightgrey;
-    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.09);
+
 }
 
 /* Main content starts */
@@ -77,8 +78,7 @@ body {
 /* Get more done with Gmail */
 
 .main-contanier {
-    padding-left: 30px;
-    padding-right: 30px;
+
 }
 
 .flex-container {
@@ -87,31 +87,50 @@ body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 30px;
-    margin-top: 30px;
     background-color: whitesmoke;
+    padding: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 .flex-container-head {
-    font-size: 34px;
+    font-size: 44px;
     font-family: Arial;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
 }
 
 .flex-container-text {
     font-family: arial;
+
 }
 
 .flex-container-image {
-    height: 300px;
+    height: 450px;
     object-fit: contain;
 }
 
+.flex-container-experience {
+  background-color: white;
+}
+
+.flex-container-experience-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.flex-container-experience-item {
+  padding-bottom: 20px;
+}
+
+
 .flex-container-experience_image {
-    height: 150px;
+    height: 180px;
     object-fit: contain;
 }
 
@@ -120,6 +139,6 @@ body {
 }
 
 .flex-container-app-store-image {
-    height: 25px;
+    height: 50px;
     object-fit: contain;
 }
