@@ -1,0 +1,69 @@
+/*body {
+  background-color: #e0e0e0;
+  margin: 0px;
+  font-family: sans-serif;
+}
+.flexbox {
+  /*display: flex;
+}
+
+
+.item {
+	height: 100px;
+}
+
+.one {
+	background-color: orange;
+}
+
+.two {
+	background-color: saddlebrown;
+}
+
+.three {
+	background-color: green;	
+}*/
+
+main, header, section, aside, footer {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+main {
+    background: #000000;
+}
+
+.header {
+    background: #03a9f4;
+}
+
+.hero {
+    background: #d22b1f;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.wrapper {
+	margin: auto;
+	max-width: 1200px;
+}
+
+.content {
+    background: #129a22;
+    flex: 1;
+}
+
+.sidebar {
+    border: 1px solid #000000;
+    background: #673ab7;
+    flex: 0 1 200px;	
+}
+
+.footer {
+    border: 1px solid #000000;
+    background: #616161;
+}

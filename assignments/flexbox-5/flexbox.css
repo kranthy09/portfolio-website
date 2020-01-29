@@ -1,8 +1,42 @@
-body {
-  background-color: #e0e0e0;
-  margin: 0px;
-  font-family: sans-serif;
+* {
+	border: 1px solid black;
 }
-.flexbox {
-  display: flex;
+
+body {
+    padding 20px;
+    margin: 0;
+}
+
+
+
+.orange {
+    background-color: orange;
+}
+
+.brown {
+    background-color: brown;
+    
+    
+}
+
+.green {
+    background-color: green;
+    
+}
+
+.item {
+	height: 100px;
+	width: 576px;
+}
+
+@media (min-width: 576px) {
+	.flexbox {
+		display: flex;
+		justify-content: center;	
+	}
+	.orange {
+		
+	}
+
+
 }

@@ -1,9 +1,37 @@
 body {
-  background-color: #e0e0e0;
   margin: 0px;
   font-family: sans-serif;
-  font-size: 24px;
+  padding: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
 .flexbox {
-  display: flex;
+	display: flex;
+	background-color: lightgray;
+	justify-content: flex-start;
+	padding-left: 0;
+	text-align: center;
+}
+
+.list-items {
+	border: 1px solid orange;
+	list-style: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.two {
+	flex: 1 1 auto;
+
+}
+
+.three {
+	flex: 1 1 0;
+}
+
+
+* {
+	border: 1px solid black;
 }
