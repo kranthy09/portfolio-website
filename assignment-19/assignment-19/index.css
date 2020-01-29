@@ -1,3 +1,76 @@
-body {
+*	 {
   margin: 0px;
+  padding: 0px;
+  /*border: 1px solid black;*/
+  box-sizing: border-box;
+}
+.flex-box {
+	width: 600px;
+	margin: auto;
+}
+.navigation {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.recents-heading {
+	font-weight: 400;
+	font-size: 28px;
+	color: green;
+}
+
+.contacts-heading {
+	font-weight: 400;
+	font-size: 28px;
+}
+
+.call-history {
+	
+}
+
+.call-history-item {
+	display: flex;
+	margin: 40px;
+}
+
+.content {
+	padding: 20px;
+}
+
+.content > p {
+	padding-bottom: 5px;
+}
+
+.avatar {
+	height: 70px;
+	width: 70px;
+	object-fit: contain;
+	background-color: lightgrey;
+	border-radius: 1000%;
+	align-self: center;	
+}
+
+.sim-symbol {
+	height: 30px;
+	object-fit: contain;
+	align-self: flex-end;
+}
+
+.drop-down {
+	height: 40px;
+	object-fit: contain;
+	background-color: lightgrey;
+	border-radius: 1000px;
+	transform: rotate(270deg);
+	align-self: center;
+	margin-left: auto;
+}
+
+.dail-pad {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.numbers {
+	width: 30%;
 }

@@ -5,4 +5,44 @@ body {
 }
 .flexbox {
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.header {
+	background-color: orange;
+	height: 70px;
+}
+
+.content-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.navigation {
+	background-color: green;
+	flex-grow: 1;
+}
+
+.main {
+	flex-basis:1024px;
+	flex-grow: 2;
+	text-align: center;
+}
+
+.article {
+	border: 2px solid black;
+}
+
+section {
+	border: 2px dashed black;
+	height: 70px;
+	margin: 20px;
+
+}
+
+.footer {
+	background-color: lightgray;
+	height: 70px;
 }
