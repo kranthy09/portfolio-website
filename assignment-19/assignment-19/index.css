@@ -66,11 +66,92 @@
 	margin-left: auto;
 }
 
-.dail-pad {
+.dial-pad {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	padding: 30px;
 }
 
 .numbers {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	width: 30%;
+	margin: 5px;
+}
+
+.num {
+	margin: auto;
+	font-size: 52px;
+	font-weight: 50;
+}
+
+.num-text {
+	margin: auto;
+	font-size: 18px;
+}
+
+.material-icons {
+	color: grey;
+	padding: 5px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	padding: 10px;
+}
+
+.select-sim {
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+.select-sim-1, .select-sim-2 {
+	display: flex;
+	align-items: center;
+	background-color: green;
+	justify-content: center;
+	color: white;
+	padding: 15px;
+	flex-grow: 1;
+	margin: 2px;
+}
+
+.select-sim-1 {
+	margin-left: 25px; 
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
+}
+
+.select-sim-1 > img, .select-sim-2 > img {
+	height: 30px;
+	object-fit: contain;
+}
+
+.select-sim-2 {
+	margin-right: 25px; 
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+
+.call-1-text, .call-2-text {
+	margin-left: -10px;
+	font-size: 14px;
+	margin-top: -16px;
+}
+
+.select-sim-text {
+	color: white;
+	font-size: 24px;
+	font-weight: 400;
+	margin: 10px;
+}
+
+.icons-footer {
+	font-size: 30px;
 }
