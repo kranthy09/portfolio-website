@@ -1,15 +1,123 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Dialer</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Write your code below this line -->
-  </body>
+    <!-- flex-box is flex -->
+    <div class="flex-box">
+        <!-- navigation is flex -->
+        <div class="navigation">
+            <p class="recents-heading">Recents</p>
+            <p class="contacts-heading">Contacts</p>
+        </div>
+        <!-- recent-contacts-area is also a flex -->
+        <div class="call-history">
+            <div class="call-history-item">
+                <img class="avatar" src="assets/avatar.png">
+                <div class="content">
+                    <p class="content-text">Police</p>
+                    <p class="content-info">100 9:46 AM Didn't connect <img class="sim-symbol" src="assets/sim2.png"></p>
+                </div>
+                <img class="drop-down" src="assets/drop_down.svg">
+            </div>
+            <div class="call-history-item">
+                <img class="avatar" src="assets/avatar.png">
+                <div class="content">
+                    <p class="content-text">Fire</p>
+                    <p class="content-info">101 9:42 AM Didn't connect <img class="sim-symbol" src="assets/sim1.png"></p>
+                </div>
+                <img class="drop-down" src="assets/drop_down.svg">
+            </div>
+            <div class="call-history-item">
+                <img class="avatar" src="assets/avatar.png">
+                <div class="content">
+                    <p class="content-text">HDFC Customer Care
+                        <p class="content-info">04461606161 9:46 AM Didn't conne... <img class="sim-symbol" src="assets/sim1.png"></p>
+                </div>
+                <img class="drop-down" src="assets/drop_down.svg">
+            </div>
+        </div>
+        <!-- dial-pad is done also flex -->
+        <div class="dial-pad">
+            <div class="numbers">
+                <h1 class="num">1</h1>
+                <p class="num-text"><i class="material-icons">&#xe0d9;</i></p>
+            </div>
+            <div class="numbers">
+                <h1 class="num">2</h1>
+                <p class="num-text material-icons">ABC</p>
+            </div>
+            <div class="numbers">
+                <h1 class="num">3</h1>
+                <p class="num-text material-icons">DEF</p>
+            </div>
+            <div class="numbers">
+                <h1 class="num">4</h1>
+                <p class="num-text material-icons">GHI</p>
+            </div>
+            <div class="numbers">
+                <h1 class="num">5</h1>
+                <p class="num-text material-icons">JKL</p>
+            </div>
+            <div class="numbers">
+                <h1 class="num">6</h1>
+                <p class="num-text material-icons">MNO</p>
+            </div>
+            <div class="numbers">
+                <h1 class="num">7</h1>
+                <p class="num-text material-icons">PQRS</p>
+            </div>
+            <div class="numbers">
+                <h1 class="num">8</h1>
+                <p class="num-text material-icons">TUV</p>
+            </div>
+            <div class="numbers">
+                <h1 class="num">9</h1>
+                <p class="num-text material-icons">WXYZ</p>
+            </div>
+            <div class="numbers">
+                <h1 class="num star">*</h1>
+                <p class="num-text icon-of-star material-icons">,</p>
+            </div>
+            <div class="numbers">
+                <h1 class="num">0</h1>
+                <p class="num-text material-icons">+</p>
+            </div>
+            <div class="numbers">
+                <h1 class="num">#</h1>
+                <p class="num-text material-icons"></p>
+            </div>
+            <div class="footer">
+                <div class="okaicon">
+                    <i class="material-icons icons-footer">&#xe5d2;</i>
+                </div>
+                <div class="select-sim">
+                    <div class="select-sim-1">
+                        <img src="assets/call.png">
+                        <span class="call-1-text">1</span>
+                        <p class="select-sim-text">Jio 4G</p>
+
+                    </div>
+                    <div class="select-sim-2">
+                        <img src="assets/call.png">
+                        <span class="call-2-text">2</span>
+                        <p class="select-sim-text">airtel</p>
+                    </div>
+                </div>
+                <div class="dial-pad-icon">
+                    <i class="material-icons icons-footer">&#xe0bc;</i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

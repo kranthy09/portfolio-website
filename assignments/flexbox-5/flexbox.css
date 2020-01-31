@@ -7,36 +7,27 @@ body {
     margin: 0;
 }
 
-
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 .orange {
     background-color: orange;
+    flex: 1 1 600px;
 }
 
 .brown {
     background-color: brown;
-    
-    
+    flex: 1 1 400px;
+    max-width: 500px;
 }
 
 .green {
     background-color: green;
-    
+    flex: 1 1 300px;
 }
 
 .item {
 	height: 100px;
-	width: 576px;
-}
-
-@media (min-width: 576px) {
-	.flexbox {
-		display: flex;
-		justify-content: center;	
-	}
-	.orange {
-		
-	}
-
-
 }
